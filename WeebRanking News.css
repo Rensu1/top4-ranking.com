@@ -1,0 +1,59 @@
+body {
+    background-image: url("C:/Users/ACER/OneDrive/Documents/Web Technologies 1/Prefinals/Website Project/Prototype simple 2/paper.png"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .newspaper {
+  column-width: 300px;
+  column-gap: 2em;
+  padding-bottom: 10px;
+  }
+
+  .paragraph {
+  margin-top: 0px;
+  font-size: 1.2em;
+  text-align: justify;
+  }
+
+  .col-img {
+    width: 100%;
+  }
+
+   .footer{
+      text-align: center;
+      padding: 4px;
+      background-color: #333;
+      color: white;
+    }
+
+     .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
