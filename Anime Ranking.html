@@ -115,6 +115,28 @@
             Source: Microsoft Bing
         </div>
 
+
+    
+        <!-- Loading overlay -->
+    <div class="overlay" id="loadingOverlay">
+        <img class="loading-gif" src="loading.gif" alt="Loading..."> <!-- Replace 'loading.gif' with the path to your loading GIF -->
+    </div>
+
+    <script>
+        // Simulate content loading with setTimeout
+        window.addEventListener('DOMContentLoaded', function () {
+            // Display the loading overlay
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            loadingOverlay.style.visibility = 'visible';
+
+            // Simulate content loading (replace this with your actual content loading code)
+            setTimeout(function () {
+                // Hide the loading overlay after content is loaded (replace 2000ms with your desired loading time)
+                loadingOverlay.style.visibility = 'hidden';
+            }, 2000); // Simulating a 2-second loading time
+        });
+    </script>
+
     
     
 </body>
